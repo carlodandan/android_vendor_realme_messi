@@ -1330,6 +1330,4 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti \
     vendor.qti.gnss@4.0-service \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_oplusSensor \
-    manifest_oplus_fingerprint
+    manifest_android.hardware.drm@1.3-service.widevine
