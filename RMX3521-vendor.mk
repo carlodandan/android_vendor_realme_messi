@@ -8,9 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/realme/RMX3521/proprietary/product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/com.android.hotwordenrollment.common.util.xml \
     vendor/realme/RMX3521/proprietary/odm/bin/hw/android.hardware.drm@1.3-service-lazy.widevine:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.drm@1.3-service-lazy.widevine \
-    vendor/realme/RMX3521/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff \
-    vendor/realme/RMX3521/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
-    vendor/realme/RMX3521/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
     vendor/realme/RMX3521/proprietary/odm/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Audio_Parameter_Version.txt \
     vendor/realme/RMX3521/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/realme/RMX3521/proprietary/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/General_cal.acdb \
@@ -22,8 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3521/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
     vendor/realme/RMX3521/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
     vendor/realme/RMX3521/proprietary/odm/etc/init/android.hardware.drm@1.3-service-lazy.widevine.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.drm@1.3-service-lazy.widevine.rc \
-    vendor/realme/RMX3521/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
-    vendor/realme/RMX3521/proprietary/odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc \
     vendor/realme/RMX3521/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/realme/RMX3521/proprietary/odm/etc/samsung2047_s6e3fc3_cinema_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung2047_s6e3fc3_cinema_eyeprotect_data.xml \
     vendor/realme/RMX3521/proprietary/odm/etc/samsung2047_s6e3fc3_colorful_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung2047_s6e3fc3_colorful_eyeprotect_data.xml \
@@ -174,7 +169,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3521/proprietary/odm/firmware/ufs/SKhynix-H9HQ15AFAMBDAR.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SKhynix-H9HQ15AFAMBDAR.bin \
     vendor/realme/RMX3521/proprietary/odm/firmware/ufs/SKhynix-H9HQ21AFAMADAR.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SKhynix-H9HQ21AFAMADAR.bin \
     vendor/realme/RMX3521/proprietary/odm/firmware/ufs/YMTC-YMUS8B2TE2A2C1.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/YMTC-YMUS8B2TE2A2C1.bin \
-    vendor/realme/RMX3521/proprietary/odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh:$(TARGET_COPY_OUT_ODM)/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh \
     vendor/realme/RMX3521/proprietary/odm/lib/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_distortion_correction.so \
     vendor/realme/RMX3521/proprietary/odm/lib/libarcsoft_hdr_denoise_api.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_hdr_denoise_api.so \
     vendor/realme/RMX3521/proprietary/odm/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_high_dynamic_range.so \
@@ -211,8 +205,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3521/proprietary/odm/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so \
     vendor/realme/RMX3521/proprietary/odm/lib/rfsa/adsp/libvdblurless_4.6.10O_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdblurless_4.6.10O_skel.so \
     vendor/realme/RMX3521/proprietary/odm/lib/rfsa/adsp/libvdblurless_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libvdblurless_skel.so \
-    vendor/realme/RMX3521/proprietary/odm/lib/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.orms@1.0.so \
-    vendor/realme/RMX3521/proprietary/odm/lib/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance@1.0.so \
     vendor/realme/RMX3521/proprietary/odm/lib64/camera/com.qti.sensor.messi_qt_ov08d10_wide.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.messi_qt_ov08d10_wide.so \
     vendor/realme/RMX3521/proprietary/odm/lib64/camera/com.qti.sensor.messi_qtech_s5khm6_rear.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.messi_qtech_s5khm6_rear.so \
     vendor/realme/RMX3521/proprietary/odm/lib64/camera/com.qti.sensor.messi_sy_gc02m1_macro.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.messi_sy_gc02m1_macro.so \
@@ -257,12 +249,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3521/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
     vendor/realme/RMX3521/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
     vendor/realme/RMX3521/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
-    vendor/realme/RMX3521/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
-    vendor/realme/RMX3521/proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
-    vendor/realme/RMX3521/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
-    vendor/realme/RMX3521/proprietary/odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.oplusSensor@1.0.so \
-    vendor/realme/RMX3521/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
-    vendor/realme/RMX3521/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
     vendor/realme/RMX3521/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/realme/RMX3521/proprietary/odm/vendor/firmware/facereg.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b00 \
     vendor/realme/RMX3521/proprietary/odm/vendor/firmware/facereg.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b01 \
@@ -1229,7 +1215,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3521/proprietary/vendor/lib64/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.4.so \
     vendor/realme/RMX3521/proprietary/vendor/lib64/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.5.so \
     vendor/realme/RMX3521/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
-    vendor/realme/RMX3521/proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cammidasservice@1.0.so \
     vendor/realme/RMX3521/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/realme/RMX3521/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
     vendor/realme/RMX3521/proprietary/vendor/lib64/vendor.qti.data.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.2.so \
