@@ -22,8 +22,8 @@ $(call add-radio-file-sha1-checked,radio/qupfw.img,e5a80e7686f964989bbbde114a9ce
 $(call add-radio-file-sha1-checked,radio/rpm.img,dfc86d3353ce424556c1ddf9c2ff3a6452aa6355)
 $(call add-radio-file-sha1-checked,radio/splash.img,8399d0eb69bbe8c7471befae3b95eb30c11a2d36)
 $(call add-radio-file-sha1-checked,radio/tz.img,2b9c0a01cb07962f89c42cfd34d8aacb293ed679)
-$(call add-radio-file-sha1-checked,radio/uefisecapp.img,f297c47efebdab5d203020a1b32492b53dffd8b5)
-$(call add-radio-file-sha1-checked,radio/xbl_config.img,dfc86d3353ce424556c1ddf9c2ff3a6452aa6355)
+$(call add-radio-file-sha1-checked,radio/uefisecapp.img,9c8b4f97d91903dcfc28d68c8b2e0ef73e1a890d)
+$(call add-radio-file-sha1-checked,radio/xbl_config.img,f297c47efebdab5d203020a1b32492b53dffd8b5)
 $(call add-radio-file-sha1-checked,radio/xbl.img,453f70e49a2875de3b337ada8adca5e84133d3d1)
 
 endif
